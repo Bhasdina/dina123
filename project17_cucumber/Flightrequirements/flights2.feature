@@ -18,4 +18,4 @@ Feature: Flights functionality
   Scenario: perform search flight with blank credentials
     Given user should be in search flights
     When user enter blank fields and submit
-    Then user should get error mess
+    Then user should get error message
