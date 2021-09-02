@@ -1,6 +1,6 @@
 Feature: Flights functionality
 
-  @smoke
+  @smoke--1
   Scenario: perform search flight with valid credentials
     Given user should be in search flights
     When user enter valid fields and submit
@@ -14,8 +14,4 @@ Feature: Flights functionality
     
     
 
-  @smoke
-  Scenario: perform search flight with blank credentials
-    Given user should be in search flights
-    When user enter blank fields and submit
-    Then user should get error mess
+ 
