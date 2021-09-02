@@ -1,6 +1,6 @@
 Feature: Flights functionality
 
-  @smoke--1
+  @smoke
   Scenario: perform search flight with valid credentials
     Given user should be in search flights
     When user enter valid fields and submit
