@@ -1,0 +1,306 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "prescript for all login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user should be in login page",
+            "match": {
+              "location": "Login.user_should_be_in_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user enter valid credentials",
+            "match": {
+              "location": "Login.user_enter_valid_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user should navigate to homepage app",
+            "match": {
+              "location": "Login.user_should_navigate_to_homepage_app()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "login with valid credentials",
+        "description": "",
+        "id": "login-functionality;login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user should be in login page",
+            "match": {
+              "location": "Login.user_should_be_in_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user enter valid credentials",
+            "match": {
+              "location": "Login.user_enter_valid_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "submit",
+            "match": {
+              "location": "Login.submit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "user should navigate to homepage app",
+            "match": {
+              "location": "Login.user_should_navigate_to_homepage_app()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@reg"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "prescript for all login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user should be in login page",
+            "match": {
+              "location": "Login.user_should_be_in_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user enter valid credentials",
+            "match": {
+              "location": "Login.user_enter_valid_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user should navigate to homepage app",
+            "match": {
+              "location": "Login.user_should_navigate_to_homepage_app()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "login with invalid credentials",
+        "description": "",
+        "id": "login-functionality;login-with-invalid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "user should be in login page",
+            "match": {
+              "location": "Login.user_should_be_in_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "user enter invalid credentials",
+            "match": {
+              "location": "Login.user_enter_invalid_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "user should get error message",
+            "match": {
+              "location": "Login.user_should_get_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 16,
+            "name": "@smoke"
+          },
+          {
+            "line": 16,
+            "name": "@reg"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "prescript for all login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user should be in login page",
+            "match": {
+              "location": "Login.user_should_be_in_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user enter valid credentials",
+            "match": {
+              "location": "Login.user_enter_valid_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user should navigate to homepage app",
+            "match": {
+              "location": "Login.user_should_navigate_to_homepage_app()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "login with blank credentials",
+        "description": "",
+        "id": "login-functionality;login-with-blank-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "user should be in login page",
+            "match": {
+              "location": "Login.user_should_be_in_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "user enter blank credentials",
+            "match": {
+              "location": "Login.user_enter_blank_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "user should get error message",
+            "match": {
+              "location": "Login.user_should_get_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 22,
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "login functionality",
+    "description": "",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "req1login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@fun"
+      }
+    ]
+  }
+]

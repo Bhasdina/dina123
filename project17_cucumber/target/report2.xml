@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="0">
+<testcase classname="login functionality" name="login with valid credentials" time="0">
+<system-out><![CDATA[Given user should be in login page..........................................skipped
+When user enter valid credentials...........................................skipped
+Then user should navigate to homepage app...................................skipped
+Given user should be in login page..........................................skipped
+When user enter valid credentials...........................................skipped
+And submit..................................................................skipped
+Then user should navigate to homepage app...................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="login functionality" name="login with invalid credentials" time="0">
+<system-out><![CDATA[Given user should be in login page..........................................skipped
+When user enter valid credentials...........................................skipped
+Then user should navigate to homepage app...................................skipped
+Given user should be in login page..........................................skipped
+When user enter invalid credentials.........................................skipped
+Then user should get error message..........................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="login functionality" name="login with blank credentials" time="0">
+<system-out><![CDATA[Given user should be in login page..........................................skipped
+When user enter valid credentials...........................................skipped
+Then user should navigate to homepage app...................................skipped
+Given user should be in login page..........................................skipped
+When user enter blank credentials...........................................skipped
+Then user should get error message..........................................skipped
+]]></system-out>
+</testcase>
+</testsuite>
